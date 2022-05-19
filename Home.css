@@ -27,8 +27,8 @@ nav{
 }
 
 .navigation li {
-    	display :inline-block;
-        margin: 0 15px;
+    display :inline-block;
+    margin: 0 15px;
 }
 
 .navigation a {
