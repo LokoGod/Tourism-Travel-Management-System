@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>  
+	<head>
+		<meta charset="ISO-8859-1">
+		<title>Contact Us</title>
+		<link rel="stylesheet" href="css/ContactUs.css">
+		
+		<div class="header">   
+			<nav>
+				<a href = "Home.html"><img src = "Home.jpg" class = "Home"></a>
+				<ul class = "navigation">
+					<li><a href = "Home.html">Hotel</a></li>
+					<li><a href = "Restaurants.html">Restaurants</a></li>
+					<li><a href = "Experiences.html">Experiences</a></li>
+					<li class="button1"><a href ="SignIn.html">Sign In</a></li>
+					<li class="button1"><a href ="Signup.html">Sign Up</a></li>
+				</ul>
+			</nav>
+		</div>
+	</head>
+
+	<body>
+		
+		<h2>Contact Us</h2>
+
+		<h3>ADDRESS:<br>
+			7/S 69 S.T.I Colombo 04/Sri Lanka.<br><br>
+			PHONE:<br>
+			0118374692<br><br>
+			EMAIL:<br>
+			tripster@gmail.com<br><br>
+			FACEBOOK:<br>
+			www.facebook.com/Tripster
+		</h3>
+
+		<div class="ContactUsForm">
+			<form action= "php/connect.php" method = "post">
+			<h4>We'd love to hear from you!</h4>
+			<p>Username</p>
+			<input type = "text" name = "Username" placeholder="Enter Your Username" required><br>
+            <p>Email</p>
+			<input type = "text" name = "Email" placeholder="Your Email" required><br>
+            <p>Your Message</p>
+			<input type = "text" name = "yrmsg" placeholder="Write Your Message Here" required><br>
+			<input type = "submit" name = "submit" value = "Submit">
+			</form> 
+		</div>
+	</body>
+</html>

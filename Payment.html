@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Payment</title>
+    
+    <link rel="stylesheet" href="css/payment.css">
+    <script src="https://kit.fontawesome.com/640b452266.js" crossorigin="anonymous"></script>
+
+    <div class="header">   
+
+        
+        
+        <nav>
+            <a href = "Home.html"><img src = "images/pictogram-airplane-wikipedia-information-computer-icons-png-favpng-erUTb7sJ08wde2KQ2S6rZDqJX-removebg-preview.png" class = "logo"></a>
+            <ul class = "navigation">
+                <li><a href = "Home.html">Hotel</a></li>
+                <li><a href = "Restaurants.html">Restaurants</a></li>
+                <li><a href = "Experiences.html">Experiences</a></li>
+                <li class="button1"><a href ="Sign in.html">Sign In</a></li>
+                <li class="button1"><a href ="Sign up.html">Sign Up</a></li>
+            </ul>
+        </nav>
+    </div>
+
+</head>
+
+<body>
+<hr style="width:100%;text-align:left;margin-left:0; height: 5px; background-color:black">
+
+<h1 style="text-align: center;font-family:New Century Schoolbook, TeX Gyre Schola, serif;">Payment Options</h1>
+    <div class="row">
+        <div class="col-75">
+          <div class="container">
+            <form >
+              <div class="row">
+      
+                <div class="col-50">
+                  <h2 class="dinu">Payment</h2>
+                  <hr style="width:100%;text-align:left;margin-left:0; height: 5px; background-color:black;">
+                  <label for="fname" style="padding-top: 30px;">Accepted Cards</label>
+                  <div class="icon-container">
+                    <i class="fa fa-cc-visa" style="color:navy;"></i>
+                    <i class="fa fa-cc-americanexpress" style="color:navy;"></i>
+                    <i class="fa fa-cc-mastercard" style="color:red;"></i>
+                    <i class="fa fa-cc-discover" style="color:orange;"></i>
+                  </div>
+                  <label for="cname">Name on Card</label>
+                  <input type="text" id="cname" name="cardname" placeholder="Dinuka Thilakarathna">
+                  <label for="ccnum">Credit card number</label>
+                  <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+                  <label for="expmonth">Exp Month</label>
+                  <input type="text" id="expmonth" name="expmonth" placeholder="September">
+                  <div class="row">
+                    <div class="col-50">
+                      <label for="expyear">Exp Year</label>
+                      <input type="text" id="expyear" name="expyear" placeholder="2018">
+                    </div>
+                    <div class="col-50">
+                      <label for="cvv">CVV</label>
+                      <input type="text" id="cvv" name="cvv" placeholder="352">
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+              <label>
+                <input type="checkbox" checked="checked" name="sameadr">I agree to the Terms & Conditions and Privacy policy.
+              </label>
+              <input type="submit" value="pay now" class="btn">
+              <input type="submit" value="cancel" class="btn1">
+            </form>
+          </div>
+        </div>
+        
+      </div>
+
+
+    
+
+</body>
+
+
+</html>

@@ -12,6 +12,12 @@
     position : relative;
 }
 
+body {
+    background-image: url("images/Tak2-CMSTemplate_IrMZHla.jpg");
+    background-size:100%;
+}
+
+
 nav{
     display : flex;
     align-items: center;
@@ -97,3 +103,51 @@ nav{
 }
 
 /*footer ending*/
+
+/*body begining */
+
+.body-box {
+    width: 50%;
+    height: 60vh;
+    background-color:lightcyan;
+    border-radius: 10px;
+    padding: 50px;
+    margin: 20px;
+    margin: auto;
+}
+
+.rest-images {
+    display: block;
+    width: 350px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+h2 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+h3 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.Reserve {
+    text-decoration: none;
+    text-align: center;
+    background-color:skyblue;
+    color: black;
+    padding: 10px 30px;
+    border-radius: 10px;
+    cursor:pointer;
+    position: relative;
+}
+
+
+
+
+/*body ending */

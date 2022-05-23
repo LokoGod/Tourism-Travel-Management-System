@@ -2,8 +2,10 @@
     margin: 0;
     padding: 0;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, sans-serif;
+    text-decoration: none;
     box-sizing: border-box;
 }
+
 /*header begining*/
 .header {
     height: 20vh;
@@ -138,6 +140,7 @@ h3 {
 }
 
 .Reserve {
+    text-decoration: none;
     text-align: center;
     background-color:skyblue;
     color: black;
@@ -146,3 +149,4 @@ h3 {
     cursor:pointer;
     position: relative;
 }
+
