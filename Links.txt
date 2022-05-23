@@ -6,3 +6,6 @@ https://www.youtube.com/watch?v=lLdzlLL33G8
 
 Creating icons
 https://fontawesome.com/
+
+Star rating system
+https://dev.to/leonardoschmittk/how-to-make-a-star-rating-with-js-36d3
