@@ -1,5 +1,5 @@
 # Tourism-Travel-Management-System
-2 days remaining
+Need to fully develop
 
 use skyblue as web page theme
 
